@@ -1,7 +1,7 @@
-import React from "react";
-import Header from "./components/Header/Header.js";
-import Footer from "./components/Footer/Footer.js";
-import "./app.scss";
+import React from 'react';
+import Header from './components/Header/Header.js';
+import Footer from ''./components/Footer/Footer.js';
+import './app.scss';
 
 class Counter extends React.Component {
   constructor(props) {
@@ -24,8 +24,8 @@ class Counter extends React.Component {
   render() {
     let counter = this.state.counter;
     let color;
-    let colorIncrement = { color: "green" };
-    let colorDecrement = { color: "red" };
+    let colorIncrement = { color: 'green' };
+    let colorDecrement = { color: 'red' };
     if (counter > 0) {
       color = colorIncrement;
     } else if (counter < 0) {

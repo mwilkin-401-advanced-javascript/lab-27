@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from './components/Header/Header.js';
-import Footer from './components/Footer/Footer.js';
-import Counter from './components/Counter/Counter.js';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import Counter from './components/Counter/Counter';
 
 import './app.scss';
 

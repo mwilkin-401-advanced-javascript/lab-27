@@ -4,7 +4,7 @@ class Counter extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      counter: 0
+      counter: 0,
     };
   }
 
@@ -19,10 +19,10 @@ class Counter extends React.Component {
   };
 
   render() {
-    let counter = this.state.counter;
+    const counter = this.state.counter;
     let color;
-    let colorIncrement = { color: 'green' };
-    let colorDecrement = { color: 'red' };
+    const colorIncrement = { color: 'green' };
+    const colorDecrement = { color: 'red' };
     if (counter > 0) {
       color = colorIncrement;
     } else if (counter < 0) {
@@ -30,8 +30,8 @@ class Counter extends React.Component {
     }
 
     return (
-      <div>
-        <h4 style={color}>{this.state.counter}</h4>
+      <div className="counter">
+        <h4 style={color} className="count">{this.state.counter}</h4>
         <a href="*" onClick={this.handleIncrementClick}>
           Increment
         </a>

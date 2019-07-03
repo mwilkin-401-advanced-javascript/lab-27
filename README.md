@@ -22,7 +22,11 @@ Dependencies
 
 jest
 
-lint
+eslint
+
+#### 
+
+npm i --save-dev enzyme enzyme-adapter-react-16
 
 Modules
 

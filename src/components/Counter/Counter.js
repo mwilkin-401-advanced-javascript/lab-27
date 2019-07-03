@@ -19,6 +19,7 @@ class Counter extends React.Component {
   };
 
   render() {
+    // eslint-disable-next-line prefer-destructuring
     const counter = this.state.counter;
     let color;
     const colorIncrement = { color: 'green' };

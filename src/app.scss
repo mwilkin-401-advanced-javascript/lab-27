@@ -1,0 +1,50 @@
+$backgroundColor: #173F5F;
+$align: center;
+$space: 10%;
+$size: 2em;
+$accentColor: #F6D55C;
+
+body{
+ background-color: $backgroundColor;
+ text-align: $align;
+}
+
+header{
+  background-color: #3CAEA3;
+  color: $accentColor;
+  font-size: $size;
+  font-family: cursive;
+
+  :hover{
+    background-color: #ED553B;
+  }
+}
+
+a {
+ margin: $space;
+ font-size: $size;
+ text-decoration: none;
+ color: $accentColor;
+  :hover{
+   background-color: #F6D55C;
+  }
+}
+
+h4{
+ color: $accentColor;
+ font-size: $size * 3;
+ font-family: sans-serif;
+ margin: $space;
+}
+
+footer{
+ background-color: #3CAEA3;
+ margin-top: $space;
+ color: #ED553B;
+ font-size: $size;
+ font-family: cursive;
+
+  :hover{
+    background-color: #F6D55C;
+  }
+}

@@ -21,7 +21,8 @@
 
 * [UML-Process Flow](./assets/class_27_process_flow.jpg)
 
-* [Styleguide]()
+Local: run `npx styleguidist server` first, then click link below
+* [Styleguide](http://localhost:6060/)
 
 ### Dependencies
 

@@ -12,9 +12,9 @@
 
 * [Travis](https://www.travis-ci.com/mwilkin-401-advanced-javascript/lab-27)
 
-* [AWS S3]()
+* [AWS S3](http://wilkin-lab-27.s3-website-us-west-2.amazonaws.com/)
 
-* [Netlify]()
+* [Netlify](https://nervous-newton-21f533.netlify.com)
 
 
 ### Documentation

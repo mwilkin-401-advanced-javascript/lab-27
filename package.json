@@ -4,10 +4,10 @@
   "description": "",
   "keywords": [],
   "main": "src/index.js",
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
   "dependencies": {
     "eslint": "^5.6.0",
     "eslint-config-airbnb-base": "^13.2.0",
-    "eslint-plugin-import": "^2.18.0",
     "eslint-plugin-jest": "^22.7.1",
     "node-sass": "4.12.0",
     "react": "16.6.3",
@@ -24,8 +24,7 @@
   "devDependencies": {
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
-    "jest-environment-enzyme": "^7.0.2",
-    "jest-enzyme": "^7.0.2",
+    "eslint-plugin-import": "^2.18.0",
     "react-styleguidist": "^9.1.11"
   },
   "scripts": {

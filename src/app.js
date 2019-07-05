@@ -5,6 +5,13 @@ import Counter from './components/Counter/Counter';
 
 import './app.scss';
 
+/**
+ * The App class which contains all components and renders to the page.
+ * Header -> header component
+ * Counter -> counter component
+ * Footer -> footer component
+ */
+
 class App extends React.Component {
   render() {
     return (

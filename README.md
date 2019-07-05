@@ -21,7 +21,9 @@
 
 * [UML]()
 
-Dependencies
+* [Styleguide]()
+
+### Dependencies
 
   ```"eslint": "^5.6.0",
   "eslint-config-airbnb-base": "^13.2.0",
@@ -39,6 +41,18 @@ Dependencies
   "redux": "4.0.1",
   "superagent": "latest"
   ```
+  
+### Components
+index.js - renders the app
+app.js - gathers all the components
+* components
+* * Counter
+* * * Counter.js - contains the counter class which adds or subtracts 1 for each time the corresponding button is clicked
+* * Footer
+* * * Footer.js - the footer html and text
+* * Header
+* * * Header.js - the header html and text
+
 
 ### Setup
 

@@ -19,7 +19,7 @@
 
 ### Documentation
 
-* [UML]()
+* [UML-Process Flow](./assets/class_27_process_flow.jpg)
 
 * [Styleguide]()
 
@@ -41,7 +41,7 @@
   "redux": "4.0.1",
   "superagent": "latest"
   ```
-  
+
 ### Components
 index.js - renders the app
 app.js - gathers all the components

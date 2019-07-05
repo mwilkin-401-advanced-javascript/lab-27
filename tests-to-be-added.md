@@ -26,6 +26,14 @@
   //   expect(wrapper.state('counter')).toBe(-2);
   // });
 
+  // describe('<Counter/> Snapshot Test', () => {
+//   it('renders correctly', () => {
+//     const component = renderer.create(<Counter/>);
+//     const tree = component.toJSON();
+//     expect(tree).toMatchSnapshot();
+//   });
+// });
+
 
   Footer:
 

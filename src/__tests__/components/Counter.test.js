@@ -8,11 +8,3 @@ describe('<Counter /> Enzyme Test', () => {
     expect(1).toEqual(1);
   });
 });
-
-// describe('<Counter/> Snapshot Test', () => {
-//   it('renders correctly', () => {
-//     const component = renderer.create(<Counter/>);
-//     const tree = component.toJSON();
-//     expect(tree).toMatchSnapshot();
-//   });
-// });

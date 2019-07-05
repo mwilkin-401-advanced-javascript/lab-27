@@ -8,7 +8,7 @@ class Counter extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      /**Initial count starts at 0 */
+      /** Initial count starts at 0 */
       counter: 0,
     };
   }
